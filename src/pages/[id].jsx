@@ -1,6 +1,4 @@
-const {
-  default: DetailCharacter,
-} = require("@/components/view/DetailCharacter");
+import DetailCharacter from "@/components/view/DetailCharacter";
 
 const DetailPage = () => {
   return <DetailCharacter />;
