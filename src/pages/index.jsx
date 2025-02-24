@@ -1,9 +1,7 @@
-const Homepage = () => {
-  return (
-    <div>
-      <div className="text-4xl font-bold">test</div>
-    </div>
-  )
-}
+import Homepage from "@/components/view/Homepage";
 
-export default Homepage;
+const Home = () => {
+  return <Homepage />;
+};
+
+export default Home;
